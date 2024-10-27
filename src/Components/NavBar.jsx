@@ -53,7 +53,7 @@ function NavBar() {
       </div>
 
       {/* Right Section (Links + Button) */}
-      <div className={`flex-col md:flex-row md:flex items-center space-y-4 md:space-y-0 md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent md:p-0 p-4 shadow-md md:shadow-none ${isOpen ? 'flex' : 'hidden'}`}>
+      <div className={`flex-col md:flex-row md:flex items-center space-y-4 md:space-y-0 md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent md:p-0 p-4 shadow-md md:shadow-none z-10 ${isOpen ? 'flex' : 'hidden'}`}>
         <a href="#" className="text-gray-500 hover:text-indigo-700">Find Suppliers</a>
         <div className="relative group">
           <a href="#" className="text-gray-500 hover:text-indigo-700">Find Service Tags</a>

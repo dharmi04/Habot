@@ -28,7 +28,7 @@
 
 
 import React, { useState } from 'react';
-import image from '../assets/habot-logo.png';
+import image from '../assets/nav-logo.png';
 import { HiMenu, HiX } from 'react-icons/hi'; // Use Heroicons or any other icon library
 
 function NavBar() {
@@ -39,7 +39,7 @@ function NavBar() {
   };
 
   return (
-    <nav className="flex items-center justify-between p-4 bg-white shadow-md">
+    <nav className="flex items-center justify-between p-4 bg-white shadow-md font-Poppins">
       {/* Logo Section */}
       <div className="flex items-center space-x-1">
         <img src={image} alt="logo" className="h-[50px] w-[175px]" />

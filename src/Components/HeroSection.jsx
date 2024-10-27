@@ -5,7 +5,7 @@ import backgroundImage from '../assets/City.jpg';
 function HeroSection() {
   return (
     <div
-      className="flex items-center justify-center h-screen bg-cover bg-center relative"
+      className="flex items-center justify-center h-screen bg-cover bg-center relative font-Poppins"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div> {/* Dark overlay */}
